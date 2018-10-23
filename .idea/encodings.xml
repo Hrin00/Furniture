@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GB2312">
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/control/BrandManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/control/FurnitureManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/control/HouseManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/control/MaterialBudgetManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/control/MaterialManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/control/MaterialServiceManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/control/RoomManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/control/ServiceManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/control/SortManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/control/UserManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/model/BeanBrand.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/model/BeanFurniture.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/model/BeanMaterial.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/model/BeanMaterialService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/model/BeanRoom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/model/BeanService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/model/BeanSort.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/model/BeanUser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/model/Furniture.hbm.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmAddBrand.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmAddHouse.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmAddMaterial.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmAddMaterialService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmAddService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmAddSort.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmBrand.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmChangePwd.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmDelHouse.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmDisplayFuniture.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmDisplayMSInfo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmFurniture.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmLogin.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmMain.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmMaterial.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmMaterialService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmModifyBrand.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmModifyMaterial.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmModifyMaterialService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmModifyService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmModifySort.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmRegister.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmSort.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/ui/FrmUser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/util/DBUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/util/DbException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/FurnitureRenovate/util/HibernateUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/hibernate.cfg.xml" charset="UTF-8" />
+    <file url="PROJECT" charset="GB2312" />
+  </component>
+</project>

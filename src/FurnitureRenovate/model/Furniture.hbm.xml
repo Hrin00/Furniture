@@ -1,0 +1,102 @@
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping package="FurnitureRenovate.model">
+
+    <!-- 标识一个类的xml映射,name为类名,table为表名 -->
+    <class name = "BeanHouse" table = "House">
+        <id name = "houseId" type = "int">
+            <column name = "house_id" />
+            <generator class="assigned"/>
+        </id>
+        <property name = "houseName" type = "string" column = "house_name"/>
+        <property name = "userId" type = "string" column = "user_id"/>
+    </class>
+
+    <class name = "BeanUser" table = "User">
+        <id name = "userId" type = "string">
+            <column name = "user_id" />
+            <generator class="assigned"/>
+        </id>
+        <property name = "userPwd" type = "string" column = "user_pwd"/>
+        <property name = "userName" type = "string" column = "user_name"/>
+        <property name = "userRank" type = "int" column = "user_rank"/>
+    </class>
+
+    <class name = "BeanBrand" table = "Brand">
+        <id name = "brandId" type = "int">
+            <column name = "brand_id" />
+            <generator class="assigned"/>
+        </id>
+        <property name = "brandName" type = "string" column = "brand_name"/>
+        <property name = "brandDescribe" type = "string" column = "brand_describe"/>
+    </class>
+
+    <class name = "BeanFurniture" table = "Furniture">
+        <id name = "furnitureId" type = "int">
+            <column name = "furniture_id" />
+            <generator class="assigned"/>
+        </id>
+        <property name = "materialServiceId" type = "int" column = "material_service_id"/>
+        <property name = "serviceQuantity" type = "int" column = "service_quantity"/>
+        <property name = "roomId" type = "int" column = "room_id"/>
+    </class>
+
+    <class name = "BeanMaterial" table = "Material">
+        <id name = "materialId" type = "int">
+            <column name = "material_id" />
+            <generator class="assigned"/>
+        </id>
+        <property name = "brandId" type = "int" column = "brand_id"/>
+        <property name = "sortId" type = "int" column = "sort_id"/>
+        <property name = "materialName" type = "string" column = "material_name"/>
+        <property name = "specification" type = "string" column = "specification"/>
+        <property name = "model" type = "string" column = "model"/>
+        <property name = "color" type = "string" column = "color"/>
+        <property name = "materialUnitPrice" type = "int" column = "material_unit_price"/>
+        <property name = "materialUnit" type = "string" column = "material_unit"/>
+    </class>
+
+
+
+    <class name = "BeanMaterialService" table = "material_service">
+        <id name = "materialServiceId" type = "int">
+            <column name = "material_service_id" />
+            <generator class="assigned"/>
+        </id>
+        <property name = "materialId" type = "int" column = "material_id"/>
+        <property name = "materialQuantity" type = "int" column = "material_quantity"/>
+        <property name = "serviceId" type = "int" column = "service_id"/>
+    </class>
+
+    <class name = "BeanRoom" table = "room">
+        <id name = "roomId" type = "int">
+            <column name = "room_id" />
+            <generator class="assigned"/>
+        </id>
+        <property name = "houseId" type = "int" column = "house_id"/>
+        <property name = "roomName" type = "string" column = "room_name"/>
+        <property name = "area" type = "int" column = "area"/>
+    </class>
+
+    <class name = "BeanService" table = "service">
+        <id name = "serviceId" type = "int">
+            <column name = "service_id" />
+            <generator class="assigned"/>
+        </id>
+        <property name = "serviceName" type = "string" column = "service_name"/>
+        <property name = "serviceRank" type = "int" column = "service_rank"/>
+        <property name = "serviceUnitPrice" type = "int" column = "service_unit_price"/>
+        <property name = "serviceUnit" type = "string" column = "service_unit"/>
+        <property name = "hour" type = "int" column = "hour"/>
+    </class>
+
+
+
+    <class name = "BeanSort" table = "Sort">
+        <id name = "sortId" type = "int">
+            <column name = "sort_id" />
+            <generator class="assigned"/>
+        </id>
+        <property name = "sortName" type = "string" column = "sort_name"/>
+        <property name = "sortDescribe" type = "string" column = "sort_describe"/>
+    </class>
+</hibernate-mapping>
